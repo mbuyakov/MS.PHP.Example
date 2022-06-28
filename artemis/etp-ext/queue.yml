@@ -1,0 +1,15 @@
+queue: [{
+        "qname": "TEST.PHP.EXAMPLE.APP",
+        "user": "testphp",
+        "userpass": "testphp",
+        "consumer": "testphp,amq",
+        "producer": "testphp,amq"
+    },
+    {
+        "qname": "TEST.PHP.EXAMPLE.STATUS",
+        "user": "testphp",
+        "userpass": "testphp",
+        "consumer": "amq",
+        "producer": "testphp,amq"
+    }]
+
